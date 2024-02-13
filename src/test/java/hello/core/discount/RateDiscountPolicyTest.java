@@ -10,6 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RateDiscountPolicyTest {
     RateDiscountPolicy discountPolicy = new RateDiscountPolicy();
+
+
     @Test
     @DisplayName("10% 할인이 적용되어야 한다.")
     void vip_o() {
