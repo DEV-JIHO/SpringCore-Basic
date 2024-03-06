@@ -32,4 +32,7 @@ public class OrderServiceTest {
         Order order = orderService.createOrder(memberId, "water", 3000);
         Assertions.assertThat(order.getDiscountPrice()).isEqualTo(300);
     }
+
+
+
 }
